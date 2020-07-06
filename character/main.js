@@ -8,7 +8,6 @@ const fw = process.env.FILE_WIDTH;
 const get = require('../request/get');
 const fs = require('fs');
 const themes = {};
-const StreamZip = require('node-stream-zip');
 
 function addTheme(id, buffer) {
 	const beg = buffer.indexOf(`theme_id="`) + 10;
@@ -61,49 +60,21 @@ module.exports = {
 
 				case 'a':
 				case '': // Blank prefix is left for compatibility purposes.
-				{
-					const nId = Number.parseInt(suffix);
-					const xmlSubId = nId % fw, fileId = nId - xmlSubId;
-					const lnNum = fUtil.padZero(xmlSubId, xNumWidth);
-					const idPad0 = fUtil.padZero(fileId);
-					const url = `${baseUrl}/${idPad0}.txt`;
-					//check if txt exists
-					if (fs.existsSync(`../server/characters/${idPad0}.txt`)) {
+					{
+						const nId = Number.parseInt(suffix);
+						const xmlSubId = nId % fw, fileId = nId - xmlSubId;
+						const lnNum = fUtil.padZero(xmlSubId, xNumWidth);
+						const url = `${baseUrl}/${fUtil.padZero(fileId)}.txt`;
+
 						get(url).then(b => {
 							var line = b.toString('utf8').split('\n').find(v => v.substr(0, xNumWidth) == lnNum);
 							line ? res(Buffer.from(line.substr(xNumWidth))) : rej(Buffer.from(fXml));
 						}).catch(e => rej(Buffer.from(fXml)));
-					} else if (fs.existsSync(`../server/characters/${idPad0}.zip`)) {
-						const charZip = new StreamZip({
-							file: `../server/characters/${idPad0}.zip`,
-							storeEntries: true
-						});
-						function unzipChar() {
-							return promise = new Promise((resolve, reject) => {
-								charZip.on('ready', () => {
-									charZip.extract(null, '../server/characters/', (err) => {
-											console.log(err ? 'Unzipping error...' && reject() : 'Character unzipped.');
-											charZip.close();
-											resolve()
-									});
-								});
-							});
-						}
-						async function retryChar() {
-							await unzipChar()
-							get(url).then(b => {
-								var line = b.toString('utf8').split('\n').find(v => v.substr(0, xNumWidth) == lnNum);
-								line ? res(Buffer.from(line.substr(xNumWidth))) : rej(Buffer.from(fXml));
-							}).catch(e => rej(Buffer.from(fXml)));
-						}
-						
-						retryChar()
-					} else {rej()}
-				}
+					}
 			}
 		});
 	},
-	/** 
+	/**
 	 * @param {Buffer} data
 	 * @param {string} id
 	 * @returns {Promise<string>}
