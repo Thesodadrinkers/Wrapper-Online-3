@@ -1,0 +1,554 @@
+<film copyable="0" duration="2.5" published="1" pshare="1" isWide="1">
+  <meta>
+    <title><![CDATA[No David! Cover]]></title>
+    <tag><![CDATA[]]></tag>
+    <hiddenTag><![CDATA[]]></hiddenTag>
+    <desc><![CDATA[]]></desc>
+    <mver><![CDATA[4]]></mver>
+    <studio>d7446f28669693f5b7a35d41831e43c3662c48bf</studio>
+    <thumbnail index="0"/>
+    <palette>
+      <color value="333333"/>
+      <color value="999999"/>
+      <color value="fbfbfb"/>
+      <color value="669999"/>
+      <color value="55bbaa"/>
+      <color value="7fbb11"/>
+      <color value="15709b"/>
+      <color value="9a5d1"/>
+      <color value="6ab8d6"/>
+      <color value="da2021"/>
+      <color value="fecd31"/>
+      <color value="28c6c1"/>
+      <color value="37444f"/>
+      <color value="f7af7f"/>
+      <color value="c9823f"/>
+      <color value="0"/>
+      <color value="ff9400"/>
+    </palette>
+  </meta>
+  <scene id="SCENE0" adelay="60" lock="N" index="0" color="16749568" guid="9782ADB3-CC0E-EFDA-6028-1A0245F4B629">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <prop id="PROP8" index="1">
+      <file>common.circle01.swf</file>
+      <x>195.7964605</x>
+      <y>133.6925066</y>
+      <xscale>0.3632089</xscale>
+      <yscale>0.3632089</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">16232319</color>
+    </prop>
+    <prop id="PROP4" index="2">
+      <file>stick.circle_outline.swf</file>
+      <x>238.3450625</x>
+      <y>131.7196028</y>
+      <xscale>0.7981469</xscale>
+      <yscale>0.7981469</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP7" index="3">
+      <file>stick.circle_outline.swf</file>
+      <x>195.1822511</x>
+      <y>133.6933535</y>
+      <xscale>0.2032652</xscale>
+      <yscale>0.2032652</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP3" index="4">
+      <file>common.circle01.swf</file>
+      <x>238.3104353</x>
+      <y>131.6849756</y>
+      <xscale>1.426186</xscale>
+      <yscale>1.426186</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">16232319</color>
+    </prop>
+    <prop id="PROP9" index="5">
+      <file>stick.triangle.swf</file>
+      <x>240.5105521</x>
+      <y>129.8140014</y>
+      <xscale>0.2361433</xscale>
+      <yscale>0.2361433</yscale>
+      <face>1</face>
+      <rotation>8.4743159</rotation>
+      <color r="sfOtherProp">13206079</color>
+    </prop>
+    <prop id="PROP34" index="6">
+      <file>chibi.square01.swf</file>
+      <x>238.317806</x>
+      <y>181.0981818</y>
+      <xscale>0.1619575</xscale>
+      <yscale>0.3849988</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">16232319</color>
+    </prop>
+    <prop id="PROP11" index="7">
+      <file>common.circle01.swf</file>
+      <x>236.2599408</x>
+      <y>135.473593</y>
+      <xscale>0.0785493</xscale>
+      <yscale>0.0785493</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">0</color>
+    </prop>
+    <prop id="PROP13" index="8">
+      <file>common.circle01.swf</file>
+      <x>242.9976951</x>
+      <y>135.4320217</y>
+      <xscale>0.0785493</xscale>
+      <yscale>0.0785493</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">0</color>
+    </prop>
+    <prop id="PROP16" index="9">
+      <file>common.triangle01.swf</file>
+      <x>240.5105521</x>
+      <y>142.2595347</y>
+      <xscale>0.5958899</xscale>
+      <yscale>0.8824553</yscale>
+      <face>1</face>
+      <rotation>59.4725839</rotation>
+      <color r="ccColorA">0</color>
+    </prop>
+    <prop id="PROP69" index="10">
+      <file>chibi.square01.swf</file>
+      <x>274.0279647</x>
+      <y>336.05</y>
+      <xscale>16.8814111</xscale>
+      <yscale>4.5813586</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">16514043</color>
+    </prop>
+    <prop id="PROP17" index="11">
+      <file>stick.triangle.swf</file>
+      <x>222.915143</x>
+      <y>144.8344726</y>
+      <xscale>0.0685393</xscale>
+      <yscale>0.0685393</yscale>
+      <face>1</face>
+      <rotation>-175.5580757</rotation>
+      <color r="sfOtherProp">16514043</color>
+    </prop>
+    <prop id="PROP19" index="12">
+      <file>stick.triangle.swf</file>
+      <x>241.7121898</x>
+      <y>144.8344726</y>
+      <xscale>0.0685393</xscale>
+      <yscale>0.0685393</yscale>
+      <face>1</face>
+      <rotation>-175.5580757</rotation>
+      <color r="sfOtherProp">16514043</color>
+    </prop>
+    <prop id="PROP21" index="13">
+      <file>stick.triangle.swf</file>
+      <x>255.3593609</x>
+      <y>144.8344726</y>
+      <xscale>0.0685393</xscale>
+      <yscale>0.0685393</yscale>
+      <face>1</face>
+      <rotation>-175.5580757</rotation>
+      <color r="sfOtherProp">16514043</color>
+    </prop>
+    <prop id="PROP23" index="14">
+      <file>stick.triangle.swf</file>
+      <x>250.9819664</x>
+      <y>154.8767305</y>
+      <xscale>0.0685393</xscale>
+      <yscale>0.0685393</yscale>
+      <face>1</face>
+      <rotation>-20.2927487</rotation>
+      <color r="sfOtherProp">16514043</color>
+    </prop>
+    <prop id="PROP71" index="15">
+      <file>chibi.square01.swf</file>
+      <x>289.4529647</x>
+      <y>343.35</y>
+      <xscale>16.8814111</xscale>
+      <yscale>4.5813586</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">16698673</color>
+    </prop>
+    <prop id="PROP25" index="16">
+      <file>stick.triangle.swf</file>
+      <x>234.2448699</x>
+      <y>163.1165319</y>
+      <xscale>0.0685393</xscale>
+      <yscale>0.0685393</yscale>
+      <face>1</face>
+      <rotation>-29.9146299</rotation>
+      <color r="sfOtherProp">16514043</color>
+    </prop>
+    <prop id="PROP27" index="17">
+      <file>stick.triangle.swf</file>
+      <x>227.5071156</x>
+      <y>167.7943358</y>
+      <xscale>0.0548314</xscale>
+      <yscale>0.0548314</yscale>
+      <face>1</face>
+      <rotation>-29.9146299</rotation>
+      <color r="sfOtherProp">16514043</color>
+    </prop>
+    <prop id="PROP28" index="18">
+      <file>stick.circle.swf</file>
+      <x>228.7945846</x>
+      <y>116.6389023</y>
+      <xscale>0.0388433</xscale>
+      <yscale>0.0388433</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP51" index="19">
+      <file>stick.circle.swf</file>
+      <x>226.0050685</x>
+      <y>233.7127468</y>
+      <xscale>0.3866098</xscale>
+      <yscale>0.3866098</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="sfOtherProp">14295073</color>
+    </prop>
+    <prop id="PROP30" index="20">
+      <file>stick.circle.swf</file>
+      <x>255.3164452</x>
+      <y>118.3126119</y>
+      <xscale>0.0388433</xscale>
+      <yscale>0.0388433</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP67" index="21">
+      <file>common.nccha_blood02.swf</file>
+      <x>313.5989401</x>
+      <y>129.8856176</y>
+      <xscale>1.0781565</xscale>
+      <yscale>1.9805667</yscale>
+      <face>1</face>
+      <rotation>43.7684786</rotation>
+      <color r="ccColorA">6994134</color>
+    </prop>
+    <prop id="PROP68" index="22">
+      <file>custom.restaurant_table.swf</file>
+      <x>387.446446</x>
+      <y>250.7296898</y>
+      <xscale>0.3485655</xscale>
+      <yscale>1.3137044</yscale>
+      <face>1</face>
+      <rotation>-13.9568912</rotation>
+    </prop>
+    <prop id="PROP31" index="23">
+      <file>chibi.square01.swf</file>
+      <x>227.5050776</x>
+      <y>105.9086639</y>
+      <xscale>0.1678785</xscale>
+      <yscale>0.0647389</yscale>
+      <face>1</face>
+      <rotation>33.1359015</rotation>
+      <color r="ccColorA">0</color>
+    </prop>
+    <prop id="PROP50" index="24">
+      <file>common.msp_nccha_handop.msp_nccha_handop_nccha_02hand_open02.swf</file>
+      <x>286.5359763</x>
+      <y>173.7331048</y>
+      <xscale>0.6673681</xscale>
+      <yscale>0.6673681</yscale>
+      <face>-1</face>
+      <rotation>42.7521866</rotation>
+      <color r="ccColorA">16232319</color>
+      <color r="ccColorB">16232319</color>
+    </prop>
+    <prop id="PROP66" index="25">
+      <file>common.nccha_fishbowl.swf</file>
+      <x>338.8677912</x>
+      <y>154.8965452</y>
+      <xscale>1.0444625</xscale>
+      <yscale>1.2451784</yscale>
+      <face>1</face>
+      <rotation>-17.9418996</rotation>
+      <color r="ccColorA">6994134</color>
+    </prop>
+    <prop id="PROP33" index="26">
+      <file>chibi.square01.swf</file>
+      <x>256.6218576</x>
+      <y>109.7710708</y>
+      <xscale>0.1678786</xscale>
+      <yscale>0.0647389</yscale>
+      <face>1</face>
+      <rotation>-173.9439744</rotation>
+      <color r="ccColorA">0</color>
+    </prop>
+    <prop id="PROP35" index="27">
+      <file>chibi.square01.swf</file>
+      <x>232.814129</x>
+      <y>210.8336098</y>
+      <xscale>0.6158414</xscale>
+      <yscale>0.8758844</yscale>
+      <face>1</face>
+      <rotation>19.3649485</rotation>
+      <color r="ccColorA">16514043</color>
+    </prop>
+    <prop id="PROP48" index="28">
+      <file>common.msp_nccha_handop.msp_nccha_handop_nccha_02hand_open02.swf</file>
+      <x>286.5359763</x>
+      <y>181.0716779</y>
+      <xscale>0.6673682</xscale>
+      <yscale>0.6673682</yscale>
+      <face>-1</face>
+      <rotation>57.3488353</rotation>
+      <color r="ccColorA">16232319</color>
+      <color r="ccColorB">16232319</color>
+    </prop>
+    <prop id="PROP37" index="29">
+      <file>chibi.square01.swf</file>
+      <x>236.2044639</x>
+      <y>199.3465256</y>
+      <xscale>0.6158414</xscale>
+      <yscale>0.2176277</yscale>
+      <face>1</face>
+      <rotation>19.3649485</rotation>
+      <color r="ccColorA">632273</color>
+    </prop>
+    <prop id="PROP39" index="30">
+      <file>chibi.square01.swf</file>
+      <x>228.7800596</x>
+      <y>220.0819285</y>
+      <xscale>0.6158414</xscale>
+      <yscale>0.2176277</yscale>
+      <face>1</face>
+      <rotation>19.3649485</rotation>
+      <color r="ccColorA">632273</color>
+    </prop>
+    <prop id="PROP43" index="31">
+      <file>chibi.square01.swf</file>
+      <x>269.2719705</x>
+      <y>190.2141083</y>
+      <xscale>0.2027461</xscale>
+      <yscale>0.4882349</yscale>
+      <face>1</face>
+      <rotation>62.4089273</rotation>
+      <color r="ccColorA">16514043</color>
+    </prop>
+    <prop id="PROP44" index="32">
+      <file>chibi.square01.swf</file>
+      <x>274.4582061</x>
+      <y>186.2963593</y>
+      <xscale>0.2027461</xscale>
+      <yscale>0.1213099</yscale>
+      <face>1</face>
+      <rotation>62.4089273</rotation>
+      <color r="ccColorA">632273</color>
+    </prop>
+    <prop id="PROP45" index="33">
+      <file>chibi.square01.swf</file>
+      <x>264.7826381</x>
+      <y>193.0751776</y>
+      <xscale>0.2027461</xscale>
+      <yscale>0.1213099</yscale>
+      <face>1</face>
+      <rotation>62.4089273</rotation>
+      <color r="ccColorA">632273</color>
+    </prop>
+    <prop id="PROP65" index="34">
+      <file>common.msp_book01.msp_book01_ncc_book09.swf</file>
+      <x>205.7797167</x>
+      <y>336.0508846</y>
+      <xscale>0.7113235</xscale>
+      <yscale>1.4344899</yscale>
+      <face>1</face>
+      <rotation>-90.9727338</rotation>
+    </prop>
+    <prop id="PROP52" index="35">
+      <file>chibi.square01.swf</file>
+      <x>218.576249</x>
+      <y>259.2306036</y>
+      <xscale>0.0647929</xscale>
+      <yscale>0.6388012</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">14295073</color>
+    </prop>
+    <prop id="PROP54" index="36">
+      <file>chibi.square01.swf</file>
+      <x>232.2489794</x>
+      <y>258.1498932</y>
+      <xscale>0.0647929</xscale>
+      <yscale>0.6388012</yscale>
+      <face>1</face>
+      <rotation>-35.5942351</rotation>
+      <color r="ccColorA">14295073</color>
+    </prop>
+    <prop id="PROP62" index="37">
+      <file>common.msp_book01.msp_book01_ncc_book01.swf</file>
+      <x>214.6917253</x>
+      <y>319.0869607</y>
+      <xscale>0.8114754</xscale>
+      <yscale>0.9616171</yscale>
+      <face>1</face>
+      <rotation>-90.9727338</rotation>
+    </prop>
+    <prop id="PROP60" index="38">
+      <file>common.03book.swf</file>
+      <x>197.6735035</x>
+      <y>311.5505983</y>
+      <xscale>0.4163495</xscale>
+      <yscale>1.2096356</yscale>
+      <face>1</face>
+      <rotation>-88.7162135</rotation>
+      <color r="ccColorA">632273</color>
+    </prop>
+    <prop id="PROP59" index="39">
+      <file>custom.magic_book.swf</file>
+      <x>205.8889483</x>
+      <y>294.4906011</y>
+      <xscale>0.5672596</xscale>
+      <yscale>1.1874026</yscale>
+      <face>1</face>
+      <rotation>-72.8777975</rotation>
+    </prop>
+    <prop id="PROP56" index="40">
+      <file>custom.changing_room_shoes.swf</file>
+      <x>236.33716</x>
+      <y>280.7160789</y>
+      <xscale>0.7594421</xscale>
+      <yscale>0.7594421</yscale>
+      <face>-1</face>
+      <rotation>-15.8728178</rotation>
+    </prop>
+    <prop id="PROP72" index="41">
+      <file>chibi.square01.swf</file>
+      <x>232.823749</x>
+      <y>86.7</y>
+      <xscale>0.0500417</xscale>
+      <yscale>0.1409593</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">0</color>
+    </prop>
+    <prop id="PROP74" index="42">
+      <file>chibi.square01.swf</file>
+      <x>225.0988259</x>
+      <y>86.4504321</y>
+      <xscale>0.0500417</xscale>
+      <yscale>0.1409593</yscale>
+      <face>1</face>
+      <rotation>-20.2041801</rotation>
+      <color r="ccColorA">0</color>
+    </prop>
+    <prop id="PROP75" index="43">
+      <file>chibi.square01.swf</file>
+      <x>217.298749</x>
+      <y>90.75</y>
+      <xscale>0.0500417</xscale>
+      <yscale>0.1409593</yscale>
+      <face>1</face>
+      <rotation>-30.0723363</rotation>
+      <color r="ccColorA">0</color>
+    </prop>
+    <prop id="PROP76" index="44">
+      <file>chibi.square01.swf</file>
+      <x>209.348749</x>
+      <y>95.6510739</y>
+      <xscale>0.0500417</xscale>
+      <yscale>0.1409593</yscale>
+      <face>1</face>
+      <rotation>-59.1345341</rotation>
+      <color r="ccColorA">0</color>
+    </prop>
+    <prop id="PROP78" index="45">
+      <file>chibi.square01.swf</file>
+      <x>202.349937</x>
+      <y>101.8512495</y>
+      <xscale>0.0500417</xscale>
+      <yscale>0.1409593</yscale>
+      <face>1</face>
+      <rotation>-70.9005613</rotation>
+      <color r="ccColorA">0</color>
+    </prop>
+    <prop id="PROP84" index="46">
+      <file>chibi.square01.swf</file>
+      <x>197.6245906</x>
+      <y>109.4011822</y>
+      <xscale>0.0500417</xscale>
+      <yscale>0.1409593</yscale>
+      <face>1</face>
+      <rotation>-70.9005613</rotation>
+      <color r="ccColorA">0</color>
+    </prop>
+    <prop id="PROP85" index="47">
+      <file>chibi.square01.swf</file>
+      <x>241.6987789</x>
+      <y>85.6497281</y>
+      <xscale>0.0500417</xscale>
+      <yscale>0.1409593</yscale>
+      <face>1</face>
+      <rotation>12.5506605</rotation>
+      <color r="ccColorA">0</color>
+    </prop>
+    <prop id="PROP88" index="48">
+      <file>chibi.square01.swf</file>
+      <x>249.8738554</x>
+      <y>86.8994949</y>
+      <xscale>0.0500417</xscale>
+      <yscale>0.1409593</yscale>
+      <face>1</face>
+      <rotation>23.8107178</rotation>
+      <color r="ccColorA">0</color>
+    </prop>
+    <prop id="PROP89" index="49">
+      <file>chibi.square01.swf</file>
+      <x>256.5991303</x>
+      <y>89.9491007</y>
+      <xscale>0.0500417</xscale>
+      <yscale>0.1409593</yscale>
+      <face>1</face>
+      <rotation>45.9601878</rotation>
+      <color r="ccColorA">0</color>
+    </prop>
+    <prop id="PROP91" index="50">
+      <file>chibi.square01.swf</file>
+      <x>263.5491303</x>
+      <y>92.8991007</y>
+      <xscale>0.0500417</xscale>
+      <yscale>0.1409593</yscale>
+      <face>1</face>
+      <rotation>58.1743479</rotation>
+      <color r="ccColorA">0</color>
+    </prop>
+    <prop id="PROP93" index="51">
+      <file>chibi.square01.swf</file>
+      <x>269.2493403</x>
+      <y>97.698937</y>
+      <xscale>0.0500417</xscale>
+      <yscale>0.1409593</yscale>
+      <face>1</face>
+      <rotation>63.4534766</rotation>
+      <color r="ccColorA">0</color>
+    </prop>
+    <prop id="PROP95" index="52">
+      <file>chibi.square01.swf</file>
+      <x>274.4494409</x>
+      <y>102.2988809</y>
+      <xscale>0.0500417</xscale>
+      <yscale>0.1409593</yscale>
+      <face>1</face>
+      <rotation>70.0052935</rotation>
+      <color r="ccColorA">0</color>
+    </prop>
+    <effectAsset id="EFFECT1" themecode="common" index="53">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+</film>
