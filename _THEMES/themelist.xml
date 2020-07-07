@@ -32,7 +32,7 @@
 	<theme id="underdog" name="Saturday Morning TV" enable="N" />
 	<theme id="willie" name="Willie Nelson" enable="N" />
 	<theme id="toonadv" name="Toon Adventure" enable="N" />
-	<theme id="common" name="Common" thumb="matchboy-stand.swf" cc_theme_id="common"/>
+	<theme id="common" name="Common" thumb="matchboy-stand.swf" />
 	<whiteword />
 	<excludeAssetIDs />
 	<points money="0" sharing="0" />

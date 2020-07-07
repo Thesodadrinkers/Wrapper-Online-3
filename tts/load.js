@@ -4,6 +4,7 @@ const voices = require('./info').voices;
 const asset = require('../asset/main');
 const get = require('../request/get');
 const qs = require('querystring');
+const brotli = require('brotli');
 const https = require('https');
 const http = require('http');
 
@@ -163,6 +164,34 @@ function processVoice(voiceName, text) {
 				}));
 				break;
 			}
+            case 'cereproc': {
+                const req = https.request({
+                    hostname: 'www.cereproc.com',
+                    path: '/themes/benchpress/livedemo.php',
+                    method: 'POST',
+                    headers: {
+                        "content-type": "text/xml",
+                        'accept-encoding': 'gzip, deflate, br',
+                        'origin': 'https://www.cereproc.com',
+                        'referer': 'https://www.cereproc.com/en/products/voices',
+                        'x-requested-with': 'XMLHttpRequest',
+                        'cookie': 'has_js=1; _ga=GA1.2.1662842090.1593634776; _gid=GA1.2.1522751685.1593634776; Drupal.visitor.liveDemo=qyzyt95c789; cookie-agreed=2',
+                    },
+                }, r => {
+                    var buffers = [];
+                    r.on('data', d => buffers.push(d));
+                    r.on('end', () => {
+                        const xml = String.fromCharCode.apply(null, brotli.decompress(Buffer.concat(buffers)));
+                        const beg = xml.indexOf('https://cerevoice.s3.amazonaws.com/');
+                        const end = xml.indexOf('.mp3', beg) + 4;
+                        const loc = xml.substr(beg, end - beg).toString();
+                        get(loc).then(res).catch(rej);
+                    })
+                    r.on('error', rej);
+                });
+                req.end(`<speakExtended key='qyzyt95c789'><voice>${voice.arg}</voice><text>${text}</text><audioFormat>mp3</audioFormat></speakExtended>`);
+                break;
+            }
             case 'readloud': {
                 const req = https.request({
                     host: 'readloud.net',

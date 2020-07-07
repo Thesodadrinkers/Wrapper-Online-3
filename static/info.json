@@ -2,14 +2,14 @@
 	"GET": {
 		"/index.html": {
 			"headers": {
-				"Location": "pages/html/old.html"
+				"Location": "pages/html/list.html"
 			},
 			"statusCode": 302,
 			"content": ""
 		},
 		"/$": {
 			"headers": {
-				"Location": "pages/html/old.html"
+				"Location": "pages/html/list.html"
 			},
 			"statusCode": 302,
 			"content": ""
@@ -17,13 +17,6 @@
 		"/go/character_creator/family": {
 			"headers": {
 				"Location": "/cc?themeId=family&bs=adam"
-			},
-			"statusCode": 302,
-			"content": ""
-		},
-		"/go/character_creator/family/copy": {
-			"headers": {
-				"Location": "/cc?themeId=family&id="
 			},
 			"statusCode": 302,
 			"content": ""
@@ -77,6 +70,12 @@
 				"Content-Type": "text/html; charset=UTF-8"
 			},
 			"content": "<?xml encoding=\"UTF-8\"?><watermarks><current/><preview/></watermarks>"
+		},
+		"/goapi/getMovieInfo/": {
+			"headers": {
+				"Content-Type": "text/html; charset=UTF-8"
+			},
+			"content": "<?xml encoding=\"UTF-8\"?><watermarks><watermark style=\"visualplugin\"/></watermarks>"
 		}
 	},
 	"pages": {
