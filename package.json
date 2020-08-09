@@ -1,8 +1,8 @@
 {
-	"name": "wrapper-offline",
-	"description": "A Node.js app which communicates with a web server to run the LVM",
+	"name": "wrapper-online",
+	"description": "A Node.js app which is hosted on a website",
 	"version": "1.2.0",
-	"homepage": "https://discord.gg/Kf7BzSw",
+	"homepage": "https://discord.gg/Ca8ptww",
 	"license": "MIT",
 	"private": true,
 	"scripts": {
