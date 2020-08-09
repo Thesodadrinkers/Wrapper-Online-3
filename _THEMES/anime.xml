@@ -1219,4 +1219,17 @@
 	<prop id="shop01_prop02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="17405" money="0" sharing="0"/>
 	<prop id="shop01_prop03.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="17406" money="0" sharing="0"/>
 	<prop id="shop01_prop04.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="17407" money="0" sharing="0"/>
+
+<char id="126374292" enc_asset_id="0_K2QX1UtV7-5Z_k8TyB-CA" name="Untitled" cc_theme_id="anime" thumbnail_url="char_default.png" copyable="Y">
+<tags>anime,animé,animê,animÉ,_free:Stock Characters</tags>
+</char>
+<char id="126374207" enc_asset_id="0n1Fst9CX6P-ybOqn9az0aQ" name="Untitled" cc_theme_id="anime" thumbnail_url="char_default.png" copyable="Y">
+<tags>anime,animé,animê,animÉ,_free:Stock Characters</tags>
+</char>
+<char id="125775728" enc_asset_id="0daUiGx6OPvtrwxStLYRCSg" name="Untitled" cc_theme_id="anime" thumbnail_url="char_default.png" copyable="Y">
+<tags>anime,animé,animê,animÉ,_free:Stock Characters</tags>
+</char>
+<char id="125775095" enc_asset_id="01mFoXQiyQtbGbLd1u6tbAw" name="Untitled" cc_theme_id="anime" thumbnail_url="char_default.png" copyable="Y">
+<tags>anime,animé,animê,animÉ,_free:Stock Characters</tags>
+</char>
 </theme>
