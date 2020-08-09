@@ -6,7 +6,7 @@ const http = require('http');
 const pmc = require('./character/premade');
 const chl = require('./character/load');
 const chs = require('./character/save');
-const mvu = require('./movie/upload');
+
 const asu = require('./asset/upload');
 const stl = require('./static/load');
 const stp = require('./static/page');
@@ -43,7 +43,6 @@ const functions = [
 	mvt,
 	tsv,
 	asu,
-	mvu,
 	stp,
 	stl,
 ];
