@@ -34,7 +34,6 @@
 	<theme id="willie" name="Willie Nelson" enable="N" />
 	<theme id="toonadv" name="Toon Adventure" enable="N" />
 	<theme id="common" name="Common" thumb="matchboy-stand.swf" />
-	<theme id="business" name="Business Friendly" thumb="" cc_theme_id="business" />
 	<whiteword />
 	<excludeAssetIDs />
 	<points money="0" sharing="0" />
