@@ -26,9 +26,9 @@ module.exports = function (req, res) {
 					//.catch(e => { res.statusCode = 404, res.end(1 + e) })
 					//why send a 404 when you can watch benson on youtube
 					.catch(
-						() => character.load('a-327068826')
+						() => character.load('a-400001007')
 						.then(v => {
-							console.log("Couldn't find that character, but it's okay, we loaded Benson instead."),
+							console.log("Couldn't find that character, but it's okay, we loaded 2Epik4u because its wrapper online"),
 							res.statusCode = 200, res.end(0 + v)
 						})
 					).catch(e => {
