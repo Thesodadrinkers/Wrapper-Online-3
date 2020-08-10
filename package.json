@@ -7,7 +7,6 @@
 	"private": true,
 	"scripts": {
 		"start": "node main.js"
-		"start": "nodemon main.js"
 	},
 	"main": "index.js",
 	"dependencies": {
