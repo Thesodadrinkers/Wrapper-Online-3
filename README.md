@@ -5,4 +5,4 @@ This is a Goanimate Legacy Video Maker Remake built in [Node.js](https://nodejs.
 If you want too edit the Asset Server, then click [here](https://github.com/2Epik4u/Wrapper-Online-Assets).
 
 # Start
-Run the start.bat to start.
+Run the [start.bat]{https://github.com/2Epik4u/Wrapper-Online/blob/master/start.bat} to start.
