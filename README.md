@@ -1,5 +1,5 @@
 # Wrapper
-npm start to launch.
+This is a Goanimate Legacy Video Maker Remake built in [Node.js](https://nodejs.org/)
 
 # Server
-If you want too edit the server files, then click [here](https://github.com/2Epik4u/Wrapper-Online-Server-Files).
+If you want too edit the Asset Server, then click [here](https://github.com/2Epik4u/Wrapper-Online-Assets).
