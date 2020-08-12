@@ -3,7 +3,6 @@ const env = Object.assign(process.env,
 	require('./config'));
 
 const http = require('http');
-const bww = require('./word');
 const pmc = require('./character/premade');
 const chl = require('./character/load');
 const chs = require('./character/save');
@@ -25,6 +24,7 @@ const tsv = require('./tts/voices');
 const tsl = require('./tts/load');
 const evt = require('./events');
 const url = require('url');
+const bww = require('./word');
 
 const functions = [
 	mvL,
