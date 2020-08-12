@@ -1,6 +1,210 @@
 <?xml version="1.0" encoding="utf-8"?>
-<theme id="botdf" name="Blood On The Dance Floor" cc_theme_id="botdf">
+<theme id="botdf" name="Blood On The Dance Floor" cc_theme_id="cc2">
 	<background id="ncc_sci07bg.swf" name="Alien planet" enable="Y" default="Y" is_premium="N" aid="17342" money="0" sharing="0"/>
 	<background id="ncc_sci08bg.swf" name="Alien planet" enable="Y" default="Y" is_premium="N" aid="17343" money="0" sharing="0"/>
 	<background id="ncc_sci10bg.swf" name="Cemetery" enable="Y" default="Y" is_premium="N" aid="17344" money="0" sharing="0"/>
+
+<char id="328503868" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328503855" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328503840" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328503826" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328503807" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328503791" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328503770" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328503751" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328503740" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328503717" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328519707" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328519696" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328519675" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328519648" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328519638" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328519624" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328519609" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328519597" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328519582" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328519564" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328535370" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328535358" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328535343" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328535333" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328535312" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328535294" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328535276" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328535258" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328535244" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328535229" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328550559" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328550539" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328550528" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328550519" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328550494" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328550478" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328550441" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328550425" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328550403" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328550386" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328405298" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328566065" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328566050" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328566037" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328566029" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328566012" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328565993" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328565976" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328565971" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328565957" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328582389" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328582377" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328582371" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328582367" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328582359" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328582348" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328582338" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328582330" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328582318" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328582308" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328598789" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328598783" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328598781" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328598774" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328598760" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328598752" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+<char id="328598745" name="" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+<tags>cc2,_free,_cat:Stock Characters</tags>
+</char>
+
 </theme>
+
