@@ -1,5 +1,5 @@
 {
-	"name": "wrapper-online",
+	"name": "wrapper-offline",
 	"description": "A Node.js app which communicates with a asset server using github sites to run the LVM",
 	"version": "1.2.0",
 	"homepage": "https://discord.gg/Ca8ptww",
@@ -18,6 +18,6 @@
 		"node-stream-zip": "^1.9.1",
 		"node-zip": "github:kyriosli/node-zip",
 		"xmldoc": "^1.1.2"
-		"bad-words": "^3.0.3"
+		
 	}
 }
