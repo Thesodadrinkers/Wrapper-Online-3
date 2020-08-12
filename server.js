@@ -3,7 +3,7 @@ const env = Object.assign(process.env,
 	require('./config'));
 
 const http = require('http');
-const bwf = require('./bwf');
+const bww = require('./word');
 const pmc = require('./character/premade');
 const chl = require('./character/load');
 const chs = require('./character/save');
@@ -28,7 +28,7 @@ const url = require('url');
 
 const functions = [
 	mvL,
-	bwf,
+	bww,
 	pmc,
 	asl,
 	evt,
