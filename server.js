@@ -24,12 +24,11 @@ const tsv = require('./tts/voices');
 const tsl = require('./tts/load');
 const evt = require('./events');
 const url = require('url');
-const bww = require('./word');
+
 
 const functions = [
 	mvL,
-	bww,
-	pmc,
+e	pmc,
 	asl,
 	evt,
 	chl,
