@@ -25,10 +25,9 @@ const tsl = require('./tts/load');
 const evt = require('./events');
 const url = require('url');
 
-
 const functions = [
 	mvL,
-e	pmc,
+	pmc,
 	asl,
 	evt,
 	chl,
