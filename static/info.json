@@ -75,7 +75,7 @@
 			"headers": {
 				"Content-Type": "text/html; charset=UTF-8"
 			},
-			"content": "<?xml encoding=\"UTF-8\"?><watermarks><watermark style=\"g4s\"/></watermarks>"
+			"content": "<?xml encoding=\"UTF-8\"?><watermarks><watermark style=\"\"/></watermarks>"
 		}
 	},
 	"pages": {
