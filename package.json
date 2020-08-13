@@ -1,5 +1,5 @@
 {
-	"name": "wrapper-offline",
+	"name": "wrapper-online",
 	"description": "A Node.js app which communicates with a asset server using github sites to run the LVM",
 	"version": "1.2.0",
 	"homepage": "https://discord.gg/Ca8ptww",
