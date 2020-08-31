@@ -4481,7 +4481,7 @@
 	<char id="327764579" name="NathanWin7587" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:GoAnimators</tags>
 	</char>
-	<char id="327764259" name="Tbone Animate" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+	<char id="400001037" name="Tbone Animate" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:GoAnimators</tags>
 	</char>
 	<char id="327764372" name="African Vulture" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
@@ -4545,6 +4545,19 @@
 	<char id="400001013" name="GoTest334 (Mega CW Beta Tester)" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,mcwcredits,_free,_cat:The Credits</tags>
 	</char>
+	<char id="400001035" name="Baby Epik" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,mcwcredits,_free,_cat:GoTest334 family</tags>
+	</char>
+	<char id="400001036" name="Daddy GoTest334" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,mcwcredits,_free,_cat:GoTest334 family</tags>
+	</char>
+	<char id="23478523485672934875617823461987236419823746192384761239476" name="Mommy Alison (Dont have her XML, So for now she is just a invalid XML)" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,mcwcredits,_free,_cat:GoTest334 family</tags>
+	</char>
+	<char id="400001037" name="Uncle benson" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+		<tags>family,mcwcredits,_free,_cat:GoTest334 family</tags>
+	</char>
+
 
 	<char id="327412169" name="Made by GoTube" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
 		<tags>family,_free,_cat:Made by GoTube</tags>
