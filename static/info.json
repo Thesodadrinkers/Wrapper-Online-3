@@ -21,6 +21,34 @@
 			"statusCode": 302,
 			"content": ""
 		},
+		"/go/character_creator/cc2": {
+			"headers": {
+				"Location": "/cc?themeId=cc2"
+			},
+			"statusCode": 302,
+			"content": ""
+		},
+		"/go/character_creator/spacecitizen": {
+			"headers": {
+				"Location": "/cc?themeId=spacecitizen"
+			},
+			"statusCode": 302,
+			"content": ""
+		},
+		"/go/character_creator/anime": {
+			"headers": {
+				"Location": "/cc?themeId=anime&bs=guy"
+			},
+			"statusCode": 302,
+			"content": ""
+		},
+		"/go/character_creator/chibi": {
+			"headers": {
+				"Location": "/cc?themeId=chibi"
+			},
+			"statusCode": 302,
+			"content": ""
+		},
 		"/crossdomain.xml": {
 			"headers": {
 				"Content-Type": "text/html; charset=UTF-8"
