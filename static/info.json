@@ -49,6 +49,34 @@
 			"statusCode": 302,
 			"content": ""
 		},
+		"/go/character_creator/ninjaanime": {
+			"headers": {
+				"Location": "/cc?themeId=ninjaanime"
+			},
+			"statusCode": 302,
+			"content": ""
+		},
+		"/go/character_creator/botdf": {
+			"headers": {
+				"Location": "/cc?themeId=botdf"
+			},
+			"statusCode": 302,
+			"content": ""
+		},
+		"/go/character_creator/business": {
+			"headers": {
+				"Location": "/cc?themeId=business"
+			},
+			"statusCode": 302,
+			"content": ""
+		},
+		"/go/character_creator/ninja": {
+			"headers": {
+				"Location": "/cc?themeId=ninja"
+			},
+			"statusCode": 302,
+			"content": ""
+		},
 		"/crossdomain.xml": {
 			"headers": {
 				"Content-Type": "text/html; charset=UTF-8"
