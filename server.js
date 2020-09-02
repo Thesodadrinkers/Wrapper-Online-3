@@ -6,6 +6,7 @@ const http = require('http');
 const pmc = require('./character/premade');
 const chl = require('./character/load');
 const chs = require('./character/save');
+const mvu = require('./movie/upload');
 const asu = require('./asset/upload');
 const stl = require('./static/load');
 const stp = require('./static/page');
@@ -23,11 +24,9 @@ const tsv = require('./tts/voices');
 const tsl = require('./tts/load');
 const evt = require('./events');
 const url = require('url');
-const ipl = require('./ip/logger');
 
 const functions = [
 	mvL,
-	asu,
 	pmc,
 	asl,
 	evt,
@@ -44,15 +43,14 @@ const functions = [
 	mvt,
 	tsv,
 	asu,
+	mvu,
 	stp,
 	stl,
-	ipl,
 ];
-
 
 module.exports = http.createServer((req, res) => {
 	const parsedUrl = url.parse(req.url, true);
 	//if (!parsedUrl.path.endsWith('/')) parsedUrl.path += '/';
 	const found = functions.find(f => f(req, res, parsedUrl));
-	if (!found) { res.statusCode = 404; res.end(); }
+	if (!found) { res.statusCode = 404; res.send(404); }
 }).listen(env.PORT || env.SERVER_PORT, console.log);
