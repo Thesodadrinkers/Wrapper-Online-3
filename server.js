@@ -45,10 +45,7 @@ const functions = [
 	stp,
 	stl,
 ];
-app.use((req, res, next) => { 
-  console.log(req.ip);
-  return next();
-});
+
 
 module.exports = http.createServer((req, res) => {
 	const parsedUrl = url.parse(req.url, true);
