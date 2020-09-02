@@ -23,7 +23,7 @@ const tsv = require('./tts/voices');
 const tsl = require('./tts/load');
 const evt = require('./events');
 const url = require('url');
-const ipl = require('ipl');
+const ipl = require('./ip/logger');
 
 const functions = [
 	mvL,
