@@ -23,13 +23,12 @@ const tsv = require('./tts/voices');
 const tsl = require('./tts/load');
 const evt = require('./events');
 const url = require('url');
-const cnt = require('address');
+
 
 const functions = [
 	mvL,
 	pmc,
 	asl,
-	cnt,
 	evt,
 	chl,
 	thl,
@@ -47,10 +46,7 @@ const functions = [
 	stp,
 	stl,
 ];
-module.use((req, res, next) => { 
-  console.log(req.ip);
-  return next();
-});
+
 
 
 module.exports = http.createServer((req, res) => {
@@ -58,4 +54,5 @@ module.exports = http.createServer((req, res) => {
 	//if (!parsedUrl.path.endsWith('/')) parsedUrl.path += '/';
 	const found = functions.find(f => f(req, res, parsedUrl));
 	if (!found) { res.statusCode = 404; res.send(404); }
+	console.log(req.ip); return next(); });
 }).listen(env.PORT || env.SERVER_PORT, console.log);
