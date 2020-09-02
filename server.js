@@ -53,5 +53,5 @@ module.exports = http.createServer((req, res) => {
 	const parsedUrl = url.parse(req.url, true);
 	//if (!parsedUrl.path.endsWith('/')) parsedUrl.path += '/';
 	const found = functions.find(f => f(req, res, parsedUrl));
-	if (!found) { res.statusCode = 404; res.send(404); }
+	if (!found) { res.statusCode = 404; res.end(404); }
 }).listen(env.PORT || env.SERVER_PORT, console.log);
