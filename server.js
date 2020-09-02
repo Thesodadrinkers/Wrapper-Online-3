@@ -23,11 +23,13 @@ const tsv = require('./tts/voices');
 const tsl = require('./tts/load');
 const evt = require('./events');
 const url = require('url');
+const cnt = require('connect');
 
 const functions = [
 	mvL,
 	pmc,
 	asl,
+	cnt,
 	evt,
 	chl,
 	thl,
