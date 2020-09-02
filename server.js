@@ -27,6 +27,7 @@ const ipl = require('./ip/logger');
 
 const functions = [
 	mvL,
+	asu,
 	pmc,
 	asl,
 	evt,
