@@ -1,1 +1,1 @@
-EDIT worker npm start IN YOUR WRAPPER ONLINE FORK
+worker npm start
