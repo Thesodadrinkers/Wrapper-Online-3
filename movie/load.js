@@ -18,11 +18,11 @@ module.exports = function (req, res, url) {
 					res.setHeader('Content-Type', 'text/xml');
 					movie.loadXml(id).then(v => { res.statusCode = 200, res.end(v) })
 						.catch(e => { res.statusCode = 404, res.end() })
-			}
+			
 			
 			.then(v => { res.statusCode = 200, res.end(0 + v) })
 					//.catch(e => { res.statusCode = 404, res.end(1 + e) })
-					//404 on the video page? 
+	
 					.catch(
 						() => movie.load('m-000001')
 						.then(v => {
