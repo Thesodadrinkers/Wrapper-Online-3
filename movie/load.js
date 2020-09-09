@@ -29,6 +29,7 @@ module.exports = function (req, res, url) {
 			movie.loadZip(url.query.movieId).then(b =>
 				res.end(Buffer.concat([base, b]))
 			).catch(e => res.end('1'));
+			});
 			return true;
 		}
 		default: return;
