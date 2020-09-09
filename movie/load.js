@@ -35,6 +35,8 @@ module.exports = function (req, res, url) {
 
 					// Movie not found? what the fuck!
 					.catch(() => character.load('a-000001').then(v => { res.statusCode = 200, res.end(0 + v) }))
+			});
+			return true;
 		}
 		default: return;
 	}
