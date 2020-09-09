@@ -19,6 +19,21 @@ module.exports = function (req, res, url) {
 					movie.loadXml(id).then(v => { res.statusCode = 200, res.end(v) })
 						.catch(e => { res.statusCode = 404, res.end() })
 			}
+			
+			.then(v => { res.statusCode = 200, res.end(0 + v) })
+					//.catch(e => { res.statusCode = 404, res.end(1 + e) })
+					//404 on the video page? 
+					.catch(
+						() => movie.load('m-000001')
+						.then(v => {
+							console.log("Couldn't find that character, but it's okay, we loaded the 404 error"),
+							res.statusCode = 200, res.end(0 + v)
+						})
+					).catch(e => {
+						console.log("But nobody came."),
+						res.statusCode = 404, res.end(1 + e)
+					});
+			});
 			return true;
 		}
 
