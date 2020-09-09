@@ -17,7 +17,7 @@ module.exports = function (req, res, url) {
 				default:
 					res.setHeader('Content-Type', 'text/xml');
 					movie.loadXml(id).then(v => { res.statusCode = 200, res.end(v) })
-						.catch(e => { res.statusCode = 404, res.end() })
+						.catch(e => { res.statusCode = 404, movie.load('a-000001').then(v => { res.statusCode = 200, res.end(0 + v) }))
 			}
 			return true;
 		}
@@ -29,13 +29,6 @@ module.exports = function (req, res, url) {
 			movie.loadZip(url.query.movieId).then(b =>
 				res.end(Buffer.concat([base, b]))
 			).catch(e => res.end('1'));
-			return true;
-			.then(v => { res.statusCode = 200, res.end(0 + v) })
-					//.catch(e => { res.statusCode = 404, res.end(1 + e) })
-
-					// Movie not found? what the fuck!
-					.catch(() => character.load('a-000001').then(v => { res.statusCode = 200, res.end(0 + v) }))
-			});
 			return true;
 		}
 		default: return;
