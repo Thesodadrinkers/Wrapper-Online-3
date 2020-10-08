@@ -5,8 +5,12 @@ This is a Goanimate Legacy Video Maker Remake built in [Node.js](https://nodejs.
 If you want too edit the Asset Server, then click [here](https://github.com/2Epik4u/Wrapper-Online-Assets).
 
 # Start
-Run the [start.bat](https://github.com/2Epik4u/Wrapper-Online/blob/master/start.bat) to start.
-For macos run [start.sh](https://github.com/2Epik4u/Wrapper-Online/blob/master/start.sh)
+To access this service, install [Node.JS](https://nodejs.org/en/) then clone/download this project.	Once done, unzip the folder, copy the path, and execute the following commands in your command prompt (where `{PATH}` is the folder path you copied):
+```console
+cd "{PATH}\GoAnimate-Wrapper-master"
+npm install
+npm start
+```
 
 # Host On Evennode
 1. make a account
