@@ -1,5 +1,5 @@
 {
-	"name": "grounded",
+	"name": "wrapper-online",
 	"version": "0.0.1",
 	"scripts": {
 		"start": "node main.js"
