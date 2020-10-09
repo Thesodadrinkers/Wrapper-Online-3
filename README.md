@@ -2,7 +2,7 @@
 This is a Goanimate Legacy Video Maker Remake built in [Node.js](https://nodejs.org/)
 
 # Server
-If you want too edit the Asset Server, then click [here](https://github.com/2Epik4u/Wrapper-Online-Assets).
+If you want to edit the Asset Server, then click [here](https://github.com/2Epik4u/Wrapper-Online-Assets).
 
 # Start
 To access this service, install [Node.JS](https://nodejs.org/en/) then clone/download this project.	Once done, unzip the folder, copy the path, and execute the following commands in your command prompt (where `{PATH}` is the folder path you copied):
