@@ -15,7 +15,7 @@ npm start
 # Host On Evennode
 1. make a account
 2. make a node.js evennode
-3. open terminal and run this command ``ssh-keygen -t rsa -C "your_email@example.com"``
+3. open command prompt on your main pc (NOT EVENNODE) and run this command ``ssh-keygen -t rsa -C "your_email@example.com"``
 4. go on the folder you saved it in and open the .PUB file
 5. Copy everything inside the file
 6. go on evennode, click account settings and paste the file on the public keys for git box and click save.
