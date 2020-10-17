@@ -9,6 +9,7 @@ To access this service, install [Node.JS](https://nodejs.org/en/) then clone/dow
 ```console
 cd "{PATH}\Wrapper-Online"
 npm install
+npm install brotli
 npm start
 ```
 
