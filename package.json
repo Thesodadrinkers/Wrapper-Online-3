@@ -1,5 +1,5 @@
 {
-	"name": "wrapper-online",
+	"name": "wrapperonline",
 	"version": "0.0.1",
 	"scripts": {
 		"start": "node main.js"
