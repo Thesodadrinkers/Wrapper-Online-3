@@ -280,7 +280,7 @@
             "country": "US",
             "language": "en",
             "gender": "M",
-            "source": "readloud",
+            "source": "ivona",
             "arg": "/english/american/3-male-voice-eric.html",
             "desc": "Eric"
         },
@@ -288,7 +288,7 @@
             "country": "US",
             "language": "en",
             "gender": "F",
-            "source": "readloud",
+            "source": "ivona",
             "arg": "/english/american/28-female-voice-jennifer.html",
             "desc": "Jennifer"
         },
@@ -296,7 +296,7 @@
             "country": "US",
             "language": "en",
             "gender": "M",
-            "source": "readloud",
+            "source": "ivona",
             "arg": "/english/american/49-funny-toy-voice-skippy-the-chipmunk.html",
             "desc": "Skippy"
         },
@@ -304,7 +304,7 @@
             "country": "US",
             "language": "en",
             "gender": "F",
-            "source": "readloud",
+            "source": "ivona",
             "arg": "/english/american/25-child-s-girl-voice-ivy.html",
             "desc": "Ivy (Old)"
         },
@@ -312,7 +312,7 @@
             "country": "US",
             "language": "en",
             "gender": "M",
-            "source": "readloud",
+            "source": "ivona",
             "arg": "/english/american/29-male-voice-joey.html",
             "desc": "Joey (Old)"
         },
@@ -320,7 +320,7 @@
             "country": "GB",
             "language": "en",
             "gender": "M",
-            "source": "readloud",
+            "source": "ivona",
             "arg": "/english/british/1-male-voice-brian.html",
             "desc": "Brian (Old)"
         },
@@ -328,7 +328,7 @@
             "country": "US",
             "language": "en",
             "gender": "F",
-            "source": "readloud",
+            "source": "ivona",
             "arg": "/english/american/33-female-voice-kimberly.html",
             "desc": "Kimberly (Old)"
         },
@@ -336,7 +336,7 @@
             "country": "US",
             "language": "en",
             "gender": "F",
-            "source": "readloud",
+            "source": "ivona",
             "arg": "/english/american/32-female-voice-kendra.html",
             "desc": "Kendra (Old)"
         },
@@ -344,7 +344,7 @@
             "country": "GB",
             "language": "en",
             "gender": "F",
-            "source": "readloud",
+            "source": "ivona",
             "arg": "/english/british/5-male-voice-amy.html",
             "desc": "Amy (Old, Polly)"
         },
@@ -352,7 +352,7 @@
             "country": "GB",
             "language": "en",
             "gender": "F",
-            "source": "readloud",
+            "source": "ivona",
             "arg": "/english/british/17-female-voice-emma.html",
             "desc": "Emma (Old, Polly)"
         },
@@ -360,7 +360,7 @@
             "country": "US",
             "language": "en",
             "gender": "M",
-            "source": "readloud",
+            "source": "ivona",
             "arg": "/english/american/30-child-s-boy-voice-justin.html",
             "desc": "Justin (Old)"
         },
@@ -368,7 +368,7 @@
             "country": "TR",
             "language": "tr",
             "gender": "F",
-            "source": "readloud",
+            "source": "ivona",
             "arg": "/turkish/20-kadın-sesi-filiz.html",
             "desc": "Filiz"
         },
@@ -880,7 +880,7 @@
 			"country": "GB",
 			"language": "en",
 			"gender": "F",
-			"source": "readloud",
+			"source": "ivona",
 			"arg": "/english/welsh/23-female-voice-gwyneth.html",
 			"desc": "Gwyneth (English)"
 		},
