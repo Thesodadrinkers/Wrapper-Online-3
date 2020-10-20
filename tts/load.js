@@ -13,34 +13,21 @@ function processVoice(voiceName, text) {
 		const voice = voices[voiceName];
 		switch (voice.source) {
 			case 'polly': {
+				https.get('https://nextup.com/ivona/index.html', (r) => {
 				var q = qs.encode({
-					texttype: "text",
-					text: text,
-					fallbackLanguage: "0",
 					voice: voice.arg,
-					rate: "0",
-					whisper: "false",
-					soft: "false",
-					wordbreakms: "0",
-					volume: "0",
-					marksid: "ca6108ea-0a10-476d-9c87-b32508002c80",
-					d: "true",
-					format: "mp3",
+				    language: `${voice.language}-${voice.country}`,
+					text: text
 				});
-				https.get({
-					host: 'talkify.net',
-					path: `/api/internal/speech?${q}`,
-					method: 'GET',
-					headers: {
-						Referer: 'https://talkify.net/text-to-speech',
-						Origin: 'https://talkify.net',
-						'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
-					},
-				}, r => {
-					var buffers = [];
-					r.on('data', d => buffers.push(d));
-					r.on('end', () => res(Buffer.concat(buffers)));
-					r.on('error', rej);
+				var buffers = [];
+                var req = https.get(`https://nextup.com/ivona/php/nextup-polly/CreateSpeech/CreateSpeechGet3.php?${q}`, (r) => {
+                    r.on("data", (d) => buffers.push(d));
+                    r.on("end", () => {
+                        const loc = Buffer.concat(buffers).toString();
+                        get(loc).then(res).catch(rej);
+                    });
+                    r.on("error", rej);
+                    });
 				});
 				break;
 			}
@@ -192,7 +179,7 @@ function processVoice(voiceName, text) {
                 req.end(`<speakExtended key='qyzyt95c789'><voice>${voice.arg}</voice><text>${text}</text><audioFormat>mp3</audioFormat></speakExtended>`);
                 break;
             }
-            case 'readloud': {
+            case 'ivona': {
                 const req = https.request({
                     host: 'readloud.net',
                     path: voice.arg,
